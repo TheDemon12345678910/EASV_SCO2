@@ -14,7 +14,7 @@ and open the template in the editor.
 
 AnchorPane
 {
-    -fx-background-color: lightgreen;
+    -fx-background-image: url(/javafxandcss/Rainbow.png);
     -fx-font-family: 'Molle', cursive;
 }
 
@@ -26,18 +26,33 @@ Label
 
 TextField
 {
-    -fx-background-color: white;
+    -fx-background-color: black;
 }
 
 
 .login_labels
 {
-    -fx-text-fill: white; /* "color" in normal CSS */
+    -fx-text-fill: red; /* "color" in normal CSS */
     -fx-text-decoration: underline;
     -fx-font-weight: bold;
 }
+.btn_red
+{
+    -fx-text-fill: yellow;
+    -fx-background-color: red;
+}
 
-    
+.btn_yellow
+{
+    -fx-text-fill: green;
+    -fx-background-color: yellow;
+}
+
+.btn_green
+{
+    -fx-text-fill: red;
+    -fx-background-color: green;
+}
 
 
 
